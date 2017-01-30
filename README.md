@@ -2,7 +2,7 @@
 
 Strong login with Yubikey using Yubico OTP. Get your Yubikey from [Yubico](https://www.yubico.com/products/yubikey-hardware/) 
 
-** Configure Yubico Client
+### Configure Yubico Client
 - Get an API key from [https://upgrade.yubico.com/getapikey/](https://upgrade.yubico.com/getapikey/) and make a note of the client id and key.
 
 ![Figure: Yubico API key registration](docs/images/yubico-api-key.png)
@@ -15,14 +15,14 @@ Strong login with Yubikey using Yubico OTP. Get your Yubikey from [Yubico](https
 
 Now the Yubico Client is configured and available for use.
 
-** Enable Yubikey authentication
+### Enable Yubikey authentication
 - Sign in to portal as admin
 - Navigate to Control Panel -> Configuration -> Instance Settings -> Authentication -> Yubikey
 - Check enabled and click Save
 
 ![Figure: Yubikey Authentication](docs/images/authentication.png)
 
-** Register a key with account
+### Register a key with account
 - Sign in
 - Navigate to My Account -> Yubikey
 - Click Add Key
@@ -32,7 +32,7 @@ Now the Yubico Client is configured and available for use.
 
 ![Figure: Yubikey registration](docs/images/register-yubikey.png)
 
-** Login using Yubikey
+### Login using Yubikey
 
 If you have successfully enabled Yubikey authentication and registered your Yubikey with an account you can use it to login to that account.
 
