@@ -1,0 +1,11 @@
+Bundle-ClassPath:\
+	.,\
+	lib/yubico-validation-client2.jar
+Bundle-Name: Yubico Client
+Bundle-SymbolicName: fi.jguru.yubico.client
+Bundle-Version: 1.0.0
+-includeresource:\
+	lib/yubico-validation-client2.jar=yubico-validation-client2-[0-9]*.jar
+Export-Package: fi.jguru.yubico.client.configuration,\
+	com.yubico.client.v2,\
+	com.yubico.client.v2.exceptions

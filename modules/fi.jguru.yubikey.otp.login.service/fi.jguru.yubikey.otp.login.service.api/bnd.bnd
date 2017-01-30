@@ -1,0 +1,7 @@
+Bundle-SymbolicName: fi.jguru.yubikey.otp.login.service-api
+Bundle-Version: 1.0.0
+Export-Package:\
+	fi.jguru.yubikey.otp.login.service.exception,\
+	fi.jguru.yubikey.otp.login.service.model,\
+	fi.jguru.yubikey.otp.login.service.service,\
+	fi.jguru.yubikey.otp.login.service.service.persistence

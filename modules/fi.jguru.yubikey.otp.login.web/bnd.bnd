@@ -1,0 +1,7 @@
+Bundle-Name: Yubikey OTP Login Web
+Bundle-SymbolicName: fi.jguru.yubikey.otp.login.web
+Bundle-Version: 1.0.0
+Web-ContextPath: /yubikey-otp-login-web
+
+-jsp: *.jsp,*.jspf
+-plugin.jsp: com.liferay.ant.bnd.jsp.JspAnalyzerPlugin

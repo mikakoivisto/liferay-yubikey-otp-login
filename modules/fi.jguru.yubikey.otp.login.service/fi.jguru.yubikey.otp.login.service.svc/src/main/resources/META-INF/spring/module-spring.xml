@@ -1,0 +1,6 @@
+<?xml version="1.0"?>
+
+<beans xmlns="http://www.springframework.org/schema/beans" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" default-destroy-method="destroy" default-init-method="afterPropertiesSet" xsi:schemaLocation=" http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
+	<bean class="fi.jguru.yubikey.otp.login.service.service.impl.YubikeyOTPKeyEntryLocalServiceImpl" id="fi.jguru.yubikey.otp.login.service.service.YubikeyOTPKeyEntryLocalService" />
+	<bean class="fi.jguru.yubikey.otp.login.service.service.persistence.impl.YubikeyOTPKeyEntryPersistenceImpl" id="fi.jguru.yubikey.otp.login.service.service.persistence.YubikeyOTPKeyEntryPersistence" parent="basePersistence" />
+</beans>

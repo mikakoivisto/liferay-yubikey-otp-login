@@ -1,0 +1,14 @@
+<?xml version="1.0"?>
+
+<model-hints>
+	<model name="fi.jguru.yubikey.otp.login.service.model.YubikeyOTPKeyEntry">
+		<field name="keyId" type="long" />
+		<field name="companyId" type="long" />
+		<field name="userId" type="long" />
+		<field name="userName" type="String" />
+		<field name="createDate" type="Date" />
+		<field name="modifiedDate" type="Date" />
+		<field name="publicId" type="String" />
+		<field name="name" type="String" />
+	</model>
+</model-hints>
